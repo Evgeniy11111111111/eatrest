@@ -14,6 +14,7 @@
 
   <script defer src="./bootstrap/bootstrap.bundle.min.js"></script>
   <script defer src="./swiper/swiper-bundle.min.js"></script>
+  <script defer src="./swipe/swiped-events.min.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
 
@@ -1363,7 +1364,7 @@
     <div class="sorting__wrap">
   <div class="sorting">
     <div class="custom-container container-fluid">
-      <div class="sorting__touch">
+      <div class="sorting__touch" data-swipe-threshold="20" data-swipe-timeout="500" data-swipe-ignore="false">
         <div class="sorting__touch-strip"></div>
       </div>
       <div class="sorting__content">
