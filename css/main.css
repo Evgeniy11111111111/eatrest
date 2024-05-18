@@ -1980,9 +1980,6 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1994,7 +1991,7 @@ main {
 }
 .sorting__content {
   position: relative;
-  padding: 50px 0 20px;
+  padding: 0 0 20px;
   overflow: hidden;
 }
 .sorting__box {
@@ -2084,13 +2081,11 @@ main {
 }
 .filter__touch {
   margin-top: 15px;
+  height: 30px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -2102,7 +2097,7 @@ main {
 }
 .filter__content {
   position: relative;
-  padding: 20px 0;
+  padding: 0 0 20px;
   overflow: hidden;
 }
 .filter__box {
